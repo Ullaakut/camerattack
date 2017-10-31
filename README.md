@@ -2,7 +2,10 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/Ullaakut/camerattack/master/images/camerattack.gif" width="100%"/></p>
 
-An attack tool designed to remotely shut down CCTV cameras.
+[![Latest release](https://img.shields.io/github/release/Ullaakut/camerattack.svg?style=flat)](https://github.com/Ullaakut/camerattack/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Ullaakut/camerattack)](https://goreportcard.com/report/github.com/Ullaakut/camerattack)
+
+## An attack tool designed to remotely shut down CCTV cameras.
 
 ## Usage
 
