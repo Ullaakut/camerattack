@@ -14,6 +14,8 @@ import (
 	"github.com/gernest/wow/spin"
 )
 
+const THREADS = 8
+
 // HACK: See https://stackoverflow.com/questions/3572397/lib-curl-in-c-disable-printing
 func doNotWrite([]uint8, interface{}) bool {
 	return true
@@ -70,9 +72,11 @@ func main() {
 		os.Exit(1)
 	}
 	w := startSpinner()
-	for count := int64(0); count < 100000; count++ {
-		updateSpinner(w, "[Attempt #"+strconv.FormatInt(count, 10)+"] Attacking RTSP stream...")
-		rtspDescribe(w, args[0], count)
+	for count := int64(0); count < 100000; count = count + THREADS {
+		updateSpinner(w, "[Attempt #"+strconv.FormatInt(count, 10)+" to #"+strconv.FormatInt(count+8, 10)+"] Attacking RTSP stream...")
+		for thread := count; thread < count+THREADS; thread++ {
+			rtspDescribe(w, args[0], thread)
+		}
 	}
 	clearOutput(w)
 	fmt.Printf("%s %s\n%s\n%s%s",
