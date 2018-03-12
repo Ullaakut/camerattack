@@ -1,8 +1,0 @@
-package: .
-import:
-- package: github.com/andelf/go-curl
-- package: github.com/fatih/color
-  version: ~1.5.0
-- package: github.com/gernest/wow
-  subpackages:
-  - spin

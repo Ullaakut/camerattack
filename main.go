@@ -70,7 +70,7 @@ func main() {
 		os.Exit(1)
 	}
 	w := startSpinner()
-	for count := int64(0); count < 2000; count++ {
+	for count := int64(0); count < 100000; count++ {
 		updateSpinner(w, "[Attempt #"+strconv.FormatInt(count, 10)+"] Attacking RTSP stream...")
 		rtspDescribe(w, args[0], count)
 	}
