@@ -14,7 +14,7 @@ import (
 	"github.com/gernest/wow/spin"
 )
 
-const THREADS = 8
+const threads = 8
 
 // HACK: See https://stackoverflow.com/questions/3572397/lib-curl-in-c-disable-printing
 func doNotWrite([]uint8, interface{}) bool {
