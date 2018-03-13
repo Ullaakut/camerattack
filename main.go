@@ -72,9 +72,9 @@ func main() {
 		os.Exit(1)
 	}
 	w := startSpinner()
-	for count := int64(0); count < 100000; count = count + THREADS {
+	for count := int64(0); count < 100000; count = count + threads {
 		updateSpinner(w, "[Attempt #"+strconv.FormatInt(count, 10)+" to #"+strconv.FormatInt(count+8, 10)+"] Attacking RTSP stream...")
-		for thread := count; thread < count+THREADS; thread++ {
+		for thread := count; thread < count+threads; thread++ {
 			rtspDescribe(w, args[0], thread)
 		}
 	}
