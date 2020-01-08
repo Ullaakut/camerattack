@@ -10,12 +10,12 @@
   revision = "9d81ad32de98e80df412c890c75d8964f696a910"
 
 [[projects]]
-  digest = "1:6e9cb66cf34e7495ae28bb079a097faf97082b22d74eadcac312fe6dd48eae02"
+  digest = "1:bde2a1ce1de28312f165a88926c12f4acd19dc4d7da96a445dfa5a29eae07a93"
   name = "github.com/fatih/color"
   packages = ["."]
   pruneopts = "UT"
-  revision = "2e5e248695e7e4a0f9ff6d548b83b99199326f49"
-  version = "v1.8.0"
+  revision = "daf2830f2741ebb735b21709a520c5f37d642d85"
+  version = "v1.9.0"
 
 [[projects]]
   branch = "master"
