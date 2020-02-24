@@ -3,11 +3,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:a8e4b8e8ef4c0f6916c057349e0b19ff60f48d34c964d1fa762f094740c310db"
+  digest = "1:e74d5f88a07f54fce6a74c93ab729f0c46e1d5f1fe7f3279a3d06541a7bebebd"
   name = "github.com/andelf/go-curl"
   packages = ["."]
   pruneopts = "UT"
-  revision = "0ad34987640a38650abced9915ba3e7c29fc64fc"
+  revision = "0c36110b54fa273cc6f600271840e6a617a69cc3"
 
 [[projects]]
   digest = "1:bde2a1ce1de28312f165a88926c12f4acd19dc4d7da96a445dfa5a29eae07a93"
