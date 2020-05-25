@@ -19,14 +19,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ed5770b9c257ad46b5b166b849eb7053da03c7ab8cc9b41c4950ce4b9838c429"
+  digest = "1:e3ce0a93f3d80ea7d21e1efef80c0b8f3901df71b2dc1aeea4f2761383495c0e"
   name = "github.com/gernest/wow"
   packages = [
     ".",
     "spin",
   ]
   pruneopts = "UT"
-  revision = "f84922eda44edbee8c79fd50e9842b25d76f5b4b"
+  revision = "054d00a5a868146184b2ed0eaecb6058403e0364"
 
 [[projects]]
   digest = "1:f445828f7530db7a8608d69ffa858dacba0226df1b9dcc49b658d0a50b9245c6"
